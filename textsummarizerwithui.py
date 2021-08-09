@@ -7,16 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1nIahtDqCXsXLHvhDacYz9dUldz9Fof4o
 """
 
-!pip install gradio --quiet
+#!pip install gradio --quiet
 
 import gradio as gr
 import time
 
 print(gr.__version__)
 
-!pip install transformers --quiet
-!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
-#!pip install --user gradio
+#!pip install transformers --quiet
+#!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
+
 
 from urllib import request
 from bs4 import BeautifulSoup as bs
@@ -24,7 +24,6 @@ import re
 import nltk
 import heapq
 from transformers import pipeline
-#import gradio as gr
 
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -134,5 +133,5 @@ def main(website, question, bullet_points):
 gr.Interface(
   fn=main, 
   inputs=["text", "text", gr.inputs.Slider(0, 20, step=1)],
-  outputs=["text", "text", "text"]).launch(debug=True)
+  outputs=["text", "text", "text"]).launch(debug=False)
 
