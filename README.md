@@ -1,9 +1,6 @@
 # Level3-TextSummarization
 Advanced submission for open source challenge, containing summarization and question answering.
 
-# Level2-TextSummarization
-Intermediate submission for Open Source Challenge
-
 ## Demo Video
 
 Coming soon!
