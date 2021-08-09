@@ -58,6 +58,7 @@ for word in words_tokens:
     if word not in word_frequencies.keys():
 
       word_frequencies[word] = 1
+    
     else:
 
       word_frequencies[word] += 1
@@ -68,6 +69,7 @@ print(words_tokens)
 maximum_frequency = max(word_frequencies.values())
 
 for word in word_frequencies.keys():
+    
   word_frequencies[word] = (word_frequencies[word]/maximum_frequency)
 
 print(word_frequencies)
@@ -112,7 +114,8 @@ result=predictor.predict(
   passage=TotalContent,
   question= "how many nations participating in the olympics?"
 )
-result['best_span_str']
+
+print("Answer: " + result['best_span_str'])
 
 print("Bullet Points: ")
 
