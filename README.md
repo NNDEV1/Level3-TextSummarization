@@ -44,14 +44,13 @@ Results:
 
 * *Clone git repository*
 * *Make sure correct packages are installed(below)*
-* *Run level3textsummarization.py*
-* *or optionally for easier overall usage run Level3TextSummarization.ipynb in Google Colaboratory or Jupyter Notebook*
+* *Run textsummarizerwithui.py*
+* *or optionally for easier overall usage run TextSummarizerWithUI.ipynb in Google Colaboratory or Jupyter Notebook*
 * *Go to https://13883.gradio.app/ in your browser*
 * *Input all parameters and wait for summary and answers to be generated*
 
 ![](https://user-images.githubusercontent.com/36611240/128744426-cf5558fa-0933-481a-9f35-12787e91dda6.png)
 ![](https://user-images.githubusercontent.com/36611240/128744499-c5a22ff6-3c84-4e84-babf-c1de140574ba.png)
-
 
 
 ### Prerequisites
