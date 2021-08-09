@@ -49,8 +49,10 @@ Results:
 * *Go to https://13883.gradio.app/ in your browser*
 * *Input all parameters and wait for summary and answers to be generated*
 
+
 ![](https://user-images.githubusercontent.com/36611240/128744426-cf5558fa-0933-481a-9f35-12787e91dda6.png)
-![](https://user-images.githubusercontent.com/36611240/128744499-c5a22ff6-3c84-4e84-babf-c1de140574ba.png)
+![](https://user-images.githubusercontent.com/36611240/128745358-77d7dc59-2df7-416e-8482-280cf4db210d.png)
+
 
 
 ### Prerequisites
