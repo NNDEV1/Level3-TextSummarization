@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/13qRmrw7cpYIfk_mldXPwOtUVz_BPY6rT
 """
 
-!pip install transformers --quiet
-!pip install simpletransformers --quiet
-!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
+#!pip install transformers --quiet
+#!pip install simpletransformers --quiet
+#!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
 
 from urllib import request
 from bs4 import BeautifulSoup as bs
@@ -101,10 +101,11 @@ summarizer = pipeline("summarization") # model="t5-small"
 
 summary = summarizer(total_text, max_length=128, min_length=64, do_sample=False)
 
-summary[0]["summary_text"]
+#summary[0]["summary_text"]
 
 from allennlp.predictors.predictor import Predictor
 ## Old Model commented
+
 # predictor = Predictor.from_path("https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz")
 predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/bidaf-model-2020.03.19.tar.gz")
 
