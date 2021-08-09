@@ -8,7 +8,6 @@ Original file is located at
 """
 
 #!pip install transformers --quiet
-#!pip install simpletransformers --quiet
 #!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
 
 from urllib import request
@@ -89,7 +88,7 @@ for sentence in sentence_tokens:
           sentence_scores[sentence] += word_frequencies[word]
 
 
-points = heapq.nlargest(10, sentence_scores, key=sentence_scores.get)
+points = heapq.nlargest(20, sentence_scores, key=sentence_scores.get)
 
 total_text = ""
 
