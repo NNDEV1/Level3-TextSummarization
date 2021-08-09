@@ -10,6 +10,13 @@ Coming soon!
 
 Text summarization in NLP is the process of summarizing the information in large texts for quicker consumption. The intention is to create a coherent and fluent summary having only the main points outlined in the document. Automatic text summarization is a common problem in machine learning and natural language processing (NLP). My project takes a link from a website(adjustable by user) and scrapes the raw text from the website. Then from this text my model generates a number of bullet points(adjustable by user) and a summary based on the raw text. Another feature that this project has is a question and answer feature. Question-Answering Models are machine or deep learning models that can answer questions given some context, and sometimes without any context. The model uses the scraped text from the website and takes a question as input which will then be answered by a transformer based model with relatively accurate results.
 
+---
+**NOTE**
+
+The code works regardless of website or plain text as shown in demo video. Many customizable features are shown in demo video.
+
+---
+
 
 Here are some resources to learn about text summarization and question answering that I used:
 
