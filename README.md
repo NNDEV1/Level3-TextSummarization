@@ -46,10 +46,10 @@ Results:
 * *Make sure correct packages are installed(below)*
 * *Run textsummarizerwithui.py*
 * *or optionally for easier overall usage run TextSummarizerWithUI.ipynb in Google Colaboratory or Jupyter Notebook*
-* *Go to https://13883.gradio.app/ in your browser*
+* *Go to the link that is output*
 * *Input all parameters and wait for summary and answers to be generated*
 
-
+![](https://user-images.githubusercontent.com/36611240/128745707-355dde6e-cb24-46c3-b3ff-636faced591b.png)
 ![](https://user-images.githubusercontent.com/36611240/128744426-cf5558fa-0933-481a-9f35-12787e91dda6.png)
 ![](https://user-images.githubusercontent.com/36611240/128745358-77d7dc59-2df7-416e-8482-280cf4db210d.png)
 
