@@ -7,16 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1nIahtDqCXsXLHvhDacYz9dUldz9Fof4o
 """
 
-!pip install gradio --quiet
+#!pip install gradio --quiet
 
 import gradio as gr
 import time
 
 print(gr.__version__)
 
-!pip install transformers --quiet
-!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
-#!pip install --user gradio
+#!pip install transformers --quiet
+#!pip install allennlp==1.0.0 allennlp-models==1.0.0 --quiet
+
 
 from urllib import request
 from bs4 import BeautifulSoup as bs
