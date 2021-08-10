@@ -90,7 +90,7 @@ Text summarization in NLP is the process of summarizing the information in large
 ---
 **NOTE**
 
-The code works regardless of website or plain text as shown in demo video. Many customizable features are shown in demo video.
+Many customizable features without UI are shown in demo video.
 
 ---
 
