@@ -8,7 +8,7 @@ Advanced submission for open source challenge, containing summarization and ques
 
 ## Demo Video
 
-Coming soon!
+https://drive.google.com/file/d/1q_6n5Xvh5gktansLY-MI-cn4lZWISCLA/view?usp=sharing
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -80,7 +80,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Demo Video
 
-Coming soon!
+https://drive.google.com/file/d/1Nn7iHfcbu3lcpfqAeb-m1TtwpBeh50Zo/view?usp=sharing
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
