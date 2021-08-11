@@ -56,7 +56,8 @@ def main(url_or_plain_text, question, bullet_points=5):
         url = url_or_plain_text
         TotalContent = ""
 
-        htmlDoc = request.urlopen(url)
+        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        htmlDoc = urlopen(req).read()
 
         soupObj = bs(htmlDoc, 'html.parser')
         paragraphContents = soupObj.findAll('p')
